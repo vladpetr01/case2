@@ -7,26 +7,26 @@ import turtle
 
 
 
-def Big_red_Triangle():
-    #TODO (Nastya) Big red Triangle
-
-def orange_Square():
-    #TODO (Alina) orange Square
-
-def Small_purple_Triangle():
-    #TODO (Vlad) Small purple Triangle
-
-def Big_yellow_Triangle():
-    #TODO (Nastya) Big yellow Triangle
-
-def Blue_Triangle():
-    #TODO (Alina) Blue Triangle
-
-def Green_Parallelogram():
-    #TODO (Vlad) Green Parallelogram
-
-def Small_pink_Triangle():
-    #TODO (Vlad) small pink Triangle
+def square(x, y, a,):
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
 
 
+def main():
+    square(-200, 200,180)
+    square(20,200, 180)
+    square(20,-20, 180)
+    square(-200,-20,180)
+    turtle.done()
+
+main()
 
