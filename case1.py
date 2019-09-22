@@ -112,13 +112,13 @@ def green_parallelogram(x, y, a):
     b = (2 ** 0.5) * a
 
     turtle.begin_fill()
-    turtle.fd(b)
-    turtle.right(30)
     turtle.fd(a)
-    turtle.right(60)
+    turtle.right(45)
     turtle.fd(b)
-    turtle.right(150)
+    turtle.right(135)
     turtle.fd(a)
+    turtle.right(45)
+    turtle.fd(b)
     turtle.pendown()
     turtle.end_fill()
 
