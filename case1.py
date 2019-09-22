@@ -42,7 +42,7 @@ def orange_square(x, y, a) :
     turtle.right(90)
     turtle.pendown()
     turtle.end_fill()
- pass
+    pass
 
 def small_purple_triangle(x, y, a):
     #TODO (Vlad) Function, drawing small purple triangle
@@ -141,17 +141,19 @@ def small_pink_triangle(x, y, a):
     turtle.forward(a)
     turtle.pendown()
     turtle.end_fill()
-pass
 
-    def main():
+def main():
         turtle.color("red")
         big_red_triangle(-200, 100, 180)
-
+        orange_square(0, 0, 180)
+        blue_triangle(100, 0, 180)
+        small_pink_triangle(300, 0, 180)
+        green_parallelogram(0, -100, 180)
+        small_purple_triangle(200, -100, 180)
         turtle.color("yellow")
         big_yellow_triangle(-100, 50, 180)
-
         turtle.done()
 
-    main()
+main()
 
 
