@@ -201,8 +201,94 @@ def spaceship() :
     small_purple_triangle((c - b - 10), (230 - b - c - b - b), 90)
     green_parallelogram((c + 10), (240 - c - b - b), 90)
 
-def main():
+    def fish():
+        # TODO (Nastya) Print a fish
+        turtle.left(180)
+        turtle.color("red")
+        green_parallelogram(-140, 140, 90)
 
-main()
+        turtle.left(90)
+        orange_square(-130, 135, 90)
+
+        turtle.right(45)
+        small_pink_triangle(-230, 130, 90)
+
+        turtle.right(270)
+        small_purple_triangle(-240, 40, 90)
+
+        turtle.right(90)
+        turtle.color("red")
+        big_red_triangle(13, 318, 180)
+
+        turtle.color("yellow")
+        big_yellow_triangle(13, -48, 180)
+
+        turtle.right(135)
+        blue_triangle(115, 136, 90)
+
+        turtle.done()
+
+    fish()
+
+    def human():
+        # TODO (Nastya) Print a human
+        turtle.right(90)
+        turtle.left(45)
+        orange_square(-10, 270, 90)
+
+        turtle.right(45)
+        turtle.color("red")
+        big_red_triangle(-50, 130, 180)
+
+        turtle.left(90)
+        green_parallelogram(-60, 130, 90)
+
+        turtle.right(-45)
+        turtle.color("yellow")
+        big_yellow_triangle(28, -170, 180)
+
+        small_pink_triangle(-220, -130, 90)
+
+        turtle.right(225)
+        blue_triangle(130, -190, 90)
+
+        turtle.right(-90)
+        small_purple_triangle(-35, -290, 90)
+
+        turtle.done()
+
+    human()
+
+
+def rabbit():
+    turtle.left(180)
+    green_parallelogram(-5, 190, 90)
+
+    turtle.right(90)
+    turtle.left(45)
+    orange_square(40, 180, 90)
+
+    turtle.right(180)
+    turtle.color("red")
+    big_red_triangle(-60, -50, 180)
+
+    turtle.right(135)
+    small_pink_triangle(15, -30, 90)
+
+
+    turtle.right(45)
+    turtle.color("yellow")
+    big_yellow_triangle(-240, -60, 180)
+
+    blue_triangle(-100, -242, 90)
+
+    turtle.right(180)
+    small_purple_triangle(-90, -240, 90)
+
+    turtle.done()
+
+rabbit()
+
+
 
 
