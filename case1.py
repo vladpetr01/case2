@@ -1,13 +1,13 @@
 #First case
 # Developers:   Zemtseva A. (35%),
 #               Petrov V. (25%),
-#               Daniel A. (30%)
+#               Daniel A. (35%)
 import turtle
 import math
 k = int(input('Введите число от 1 до 9'))
 
 def big_red_triangle(x, y, a) :
-    #TODO (Nastya) Big red Triangle.
+    #TODO (Nastya) Function, drawing big red triangle.
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -64,7 +64,7 @@ def small_purple_triangle(x, y, a):
 
 
 def big_yellow_triangle(x, y, a):
-    #TODO (Nastya) Big yellow Triangle.
+    #TODO (Nastya) Function, drawing big yellow triangle.
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -102,7 +102,7 @@ def blue_triangle(x, y, a) :
 
 
 def green_parallelogram(x, y, a):
-    #TODO (Vlad) Function, drawing Green Parallelogram.
+    #TODO (Vlad) Function, drawing green parallelogram.
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -126,7 +126,7 @@ def green_parallelogram(x, y, a):
 
 
 def small_pink_triangle(x, y, a):
-    #TODO (Vlad) Function, drawing small pink Triangle.
+    #TODO (Vlad) Function, drawing small pink triangle.
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
