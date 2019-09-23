@@ -4,7 +4,7 @@
 #               Daniel A. (30%)
 import turtle
 import math
-
+k = int(input('Введите число от 1 до 9'))
 
 def big_red_triangle(x, y, a) :
     #TODO (Nastya) Big red Triangle
@@ -201,7 +201,7 @@ def spaceship() :
     small_purple_triangle((c - b - 10), (230 - b - c - b - b), 90)
     green_parallelogram((c + 10), (240 - c - b - b), 90)
 
-    def fish():
+def fish():
         # TODO (Nastya) Print a fish
         turtle.left(180)
         turtle.color("red")
@@ -228,9 +228,8 @@ def spaceship() :
 
         turtle.done()
 
-    fish()
 
-    def human():
+def human():
         # TODO (Nastya) Print a human
         turtle.right(90)
         turtle.left(45)
@@ -257,10 +256,8 @@ def spaceship() :
 
         turtle.done()
 
-    human()
 
-
-def rabbit():
+def rabbit() :
     turtle.left(180)
     green_parallelogram(-5, 190, 90)
 
@@ -287,7 +284,18 @@ def rabbit():
 
     turtle.done()
 
-rabbit()
+if k == 1:
+    cock()
+if k == 2 :
+    happy_human()
+if k == 3 :
+    spaceship()
+if k == 4 :
+    human()
+if k == 5 :
+    rabbit()
+if k == 6 :
+    fish()
 
 
 
