@@ -7,7 +7,7 @@ import math
 k = int(input('Введите число от 1 до 9'))
 
 def big_red_triangle(x, y, a) :
-    #TODO (Nastya) Big red Triangle
+    #TODO (Nastya) Big red Triangle.
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -22,7 +22,7 @@ def big_red_triangle(x, y, a) :
     turtle.left(135)
     turtle.forward(b)
     turtle.end_fill()
-    pass
+
 
 def orange_square(x, y, a) :
     # TODO (Alina) Function, drawing orange square.
@@ -42,10 +42,10 @@ def orange_square(x, y, a) :
     turtle.right(90)
     turtle.pendown()
     turtle.end_fill()
-    pass
+
 
 def small_purple_triangle(x, y, a):
-    #TODO (Vlad) Function, drawing small purple triangle
+    #TODO (Vlad) Function, drawing small purple triangle.
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -60,11 +60,11 @@ def small_purple_triangle(x, y, a):
     turtle.forward(a)
     turtle.pendown()
     turtle.end_fill()
-pass
+
 
 
 def big_yellow_triangle(x, y, a):
-    #TODO (Nastya) Big yellow Triangle
+    #TODO (Nastya) Big yellow Triangle.
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -79,7 +79,7 @@ def big_yellow_triangle(x, y, a):
     turtle.left(135)
     turtle.forward(b)
     turtle.end_fill()
-pass
+
 
 
 def blue_triangle(x, y, a) :
@@ -98,11 +98,11 @@ def blue_triangle(x, y, a) :
     turtle.forward(b)
     turtle.pendown()
     turtle.end_fill()
-pass
+
 
 
 def green_parallelogram(x, y, a):
-    #TODO (Vlad) Function, drawing Green Parallelogram
+    #TODO (Vlad) Function, drawing Green Parallelogram.
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -122,11 +122,11 @@ def green_parallelogram(x, y, a):
     turtle.pendown()
     turtle.end_fill()
 
-pass
+
 
 
 def small_pink_triangle(x, y, a):
-    #TODO (Vlad) Function, drawing small pink Triangle
+    #TODO (Vlad) Function, drawing small pink Triangle.
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -202,7 +202,7 @@ def spaceship() :
     green_parallelogram((c + 10), (240 - c - b - b), 90)
 
 def fish():
-        # TODO (Nastya) Print a fish
+        # TODO (Nastya) Print a fish.
         turtle.left(180)
         turtle.color("red")
         green_parallelogram(-140, 140, 90)
@@ -230,7 +230,7 @@ def fish():
 
 
 def human():
-        # TODO (Nastya) Print a human
+        # TODO (Nastya) Print a human.
         turtle.right(90)
         turtle.left(45)
         orange_square(-10, 270, 90)
@@ -258,6 +258,7 @@ def human():
 
 
 def rabbit() :
+    # TODO (Nastya) Print a rabbit.
     turtle.left(180)
     green_parallelogram(-5, 190, 90)
 
@@ -285,6 +286,7 @@ def rabbit() :
     turtle.done()
 
 def helicopter() :
+    # TODO (Vlad) Print a helicopter.
     turtle.left(45)
     green_parallelogram(0, 100, 90)
 
@@ -312,6 +314,7 @@ def helicopter() :
 
 
 def ship() :
+    # TODO (Vlad) Print a ship.
     turtle.right(45)
     orange_square(100, 0, 90)
 
@@ -337,6 +340,7 @@ def ship() :
     turtle.done()
 
 def figure() :
+    # TODO (Vlad) Print a figure.
     turtle.left(45)
     orange_square(47, -2, 90)
 
