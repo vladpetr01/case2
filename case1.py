@@ -1,5 +1,5 @@
 #First case
-# Developers:   Zemtseva A. (30%),
+# Developers:   Zemtseva A. (35%),
 #               Petrov V. (25%),
 #               Daniel A. (30%)
 import turtle
