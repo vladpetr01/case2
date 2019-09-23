@@ -1,6 +1,6 @@
 #First case
 # Developers:   Zemtseva A. (30%),
-#               Petrov V. (60%),
+#               Petrov V. (25%),
 #               Daniel A. (30%)
 import turtle
 import math
@@ -284,6 +284,81 @@ def rabbit() :
 
     turtle.done()
 
+def helicopter() :
+    turtle.left(45)
+    green_parallelogram(0, 100, 90)
+
+    turtle.right(225)
+    blue_triangle(-100, 190, 90)
+
+    turtle.left(90)
+    turtle.color("red")
+    big_red_triangle(125, -35, 180)
+
+    turtle.right(90)
+    turtle.color("yellow")
+    big_yellow_triangle(-138, -35, 180)
+
+    turtle.left(90)
+    small_purple_triangle(-85, -100, 90)
+
+    turtle.left(90)
+    small_pink_triangle(-155, -160, 90)
+
+    orange_square(-190, -70, 90)
+
+
+    turtle.done()
+
+
+def ship() :
+    turtle.right(45)
+    orange_square(100, 0, 90)
+
+    small_pink_triangle(30, -70, 90)
+
+    turtle.left(90)
+    blue_triangle(5, -230, 90)
+
+    turtle.right(45)
+    green_parallelogram(-5, -230, 90)
+
+    turtle.right(180)
+    turtle.color('red')
+    big_red_triangle(95, 5, 180)
+
+    turtle.left(45)
+    turtle.color('yellow')
+    big_yellow_triangle(-48, -115, 180)
+
+    turtle.left(90)
+    small_purple_triangle(-32, 134, 90)
+
+    turtle.done()
+
+def figure() :
+    turtle.left(45)
+    orange_square(47, -2, 90)
+
+    turtle.right(90)
+    small_pink_triangle(45, -6, 90)
+
+    turtle.color('red')
+    big_red_triangle(43, 3, 180)
+
+    turtle.right(180)
+    turtle.color('yellow')
+    big_yellow_triangle(40, -2, 180)
+
+    green_parallelogram(-85, -137, 90)
+
+    turtle.right(135)
+    small_purple_triangle(115, 67, 90)
+
+    turtle.left(45)
+    blue_triangle(178, -135, 90)
+
+    turtle.done()
 if k == 1:
     cock()
 if k == 2 :
@@ -296,7 +371,12 @@ if k == 5 :
     rabbit()
 if k == 6 :
     fish()
-
+if k == 7 :
+    ship()
+if k == 8 :
+    helicopter()
+if k == 9 :
+    figure()
 
 
 
